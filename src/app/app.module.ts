@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { Route, RouterModule, Routes } from '@angular/router';
 import { ROUTES } from './app.routes';
 
+//services
 @NgModule({
   declarations: [
     AppComponent,
