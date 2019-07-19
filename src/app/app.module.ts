@@ -11,6 +11,11 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { Route, RouterModule, Routes } from '@angular/router';
 import { ROUTES } from './app.routes';
 
+// pipes
+import { NoImagePipe } from './pipes/no-image.pipe';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
+
 //services
 @NgModule({
   declarations: [
@@ -18,7 +23,10 @@ import { ROUTES } from './app.routes';
     HomeComponent,
     SearchComponent,
     ArtistaComponent,
-    NavbarComponent
+    NavbarComponent,
+    NoImagePipe,
+    TarjetasComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
