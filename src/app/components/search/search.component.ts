@@ -17,7 +17,7 @@ export class SearchComponent implements OnInit {
 
   buscar(busqueda: string){
     this.loading = true;
-    this.service.getArtist(busqueda).subscribe((data : any) => {
+    this.service.getArtists(busqueda).subscribe((data : any) => {
       this.artista = data;
       this.loading = false;
     })
